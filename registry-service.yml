@@ -8,6 +8,6 @@ eureka:
 
 logging:
   level:
-    com.netflix.eureka: OFF
-    com.netflix.discovery: OFF
+    com.netflix.eureka: 'OFF'
+    com.netflix.discovery: 'OFF'
 

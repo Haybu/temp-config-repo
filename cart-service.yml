@@ -1,3 +1,15 @@
 server:
   servlet:
     context-path: /cart
+
+management:
+  server:
+    port: 8081
+
+---
+spring:
+  profiles: cloud
+
+management:
+  server:
+    port: 8081

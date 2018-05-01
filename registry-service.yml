@@ -11,10 +11,18 @@ logging:
 server:
   port: 8761
 
+management:
+  server:
+    port: 8083
+
 ---
 spring:
   profiles: cloud
 
 server:
   port: 8080
+
+management:
+  server:
+    port: 8081
 

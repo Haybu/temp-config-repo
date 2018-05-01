@@ -11,11 +11,6 @@ logging:
 server:
   port: 8761
 
-management:
-  endpoints:
-    web:
-      base-path: /admin
-
 eureka:
   instance:
     hostname: localhost

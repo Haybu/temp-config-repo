@@ -2,9 +2,6 @@ server:
   port: 0
 
 management:
-  endpoints:
-    web:
-      base-path: /admin
   health:
     db.enabled: true
   security:
@@ -12,6 +9,7 @@ management:
   endpoints:
     enabled-by-default: true
     web.enabled: true
+    web.base-path: /admin
   endpoint:
     env.enabled: true
     auditevents.enabled: true

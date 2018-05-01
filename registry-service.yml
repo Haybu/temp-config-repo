@@ -15,6 +15,12 @@ management:
   server:
     port: 8083
 
+eureka:
+  instance:
+    hostname: localhost
+    statusPageUrlPath: ${management.endpoints.web.base-path}/info
+    healthCheckUrlPath: ${management.endpoints.web.base-path}/health
+
 ---
 spring:
   profiles: cloud

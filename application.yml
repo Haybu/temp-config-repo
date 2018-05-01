@@ -1,5 +1,5 @@
 server:
-  port: 8080 
+  port: 0
 
 management:
   context-path: /admin
@@ -78,3 +78,6 @@ spring:
 eureka:
   instance:
     hostname: ${vcap.application.uris[0]}
+
+server:
+  port: 8080

@@ -8,3 +8,13 @@ logging:
     com.netflix.eureka: 'OFF'
     com.netflix.discovery: 'OFF'
 
+server:
+  port: 8761
+
+---
+spring:
+  profiles: cloud
+
+server:
+  port: 8080
+

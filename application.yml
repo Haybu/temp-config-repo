@@ -2,9 +2,6 @@ server:
   port: 0
 
 management:
-  server:
-    servlet:
-      context-path: /admin
   health:
     db.enabled: true
   security:

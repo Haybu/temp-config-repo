@@ -35,8 +35,8 @@ eureka:
       enabled: true
   instance:
     hostname: localhost
-    statusPageUrlPath: ${server.servlet.context-path}/${management.endpoints.web.base-path}/info
-    healthCheckUrlPath: ${server.servlet.context-path}/${management.endpoints.web.base-path}/health
+    statusPageUrlPath: ${server.servlet.context-path}${management.endpoints.web.base-path}/info
+    healthCheckUrlPath: ${server.servlet.context-path}${management.endpoints.web.base-path}/health
 
 ###
 #   H2 Database Settings

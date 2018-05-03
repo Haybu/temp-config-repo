@@ -1,8 +1,3 @@
-eureka:
-  client:
-    register-with-eureka: false
-    fetch-registry: false
-
 logging:
   level:
     com.netflix.eureka: 'OFF'
@@ -16,6 +11,9 @@ eureka:
     hostname: localhost
     statusPageUrlPath: ${management.endpoints.web.base-path}/info
     healthCheckUrlPath: ${management.endpoints.web.base-path}/health
+  client:
+    register-with-eureka: false
+    fetch-registry: false
 
 ---
 spring:

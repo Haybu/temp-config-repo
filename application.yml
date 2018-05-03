@@ -59,6 +59,13 @@ spring:
       use_sql_comments: false
       format_sql: false
 
+security:
+  oauth2:
+    client:
+      client-id: clientid
+      client-secret: clientsecret
+
+
 ###
 #   Postgresql Database Settings
 ###

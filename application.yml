@@ -68,6 +68,9 @@ security:
     client:
       client-id: clientid
       client-secret: clientsecret
+      access-token-uri: http://localhost:9090/security/token
+      user-authorization-uri: http://localhost:9090/security/authorize
+      scope: openid profile email
     resource:
       userInfoUri: http://localhost:9090/security/user
 

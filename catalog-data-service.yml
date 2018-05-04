@@ -6,4 +6,4 @@ server:
 security:
   oauth2:
     resource:
-      id: service
+      id: catalog-service

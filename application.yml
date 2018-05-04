@@ -69,7 +69,7 @@ security:
       client-id: clientid
       client-secret: clientsecret
     resource:
-      userInfoUri: http://localhost:9090/user
+      userInfoUri: http://localhost:9090/security/user
 
 
 ###

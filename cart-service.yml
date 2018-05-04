@@ -5,5 +5,5 @@ server:
 security:
   oauth2:
     resource:
-      id: service
+      id: cart-service
 

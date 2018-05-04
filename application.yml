@@ -70,7 +70,6 @@ security:
       client-secret: clientsecret
       access-token-uri: http://localhost:9090/security/token
       user-authorization-uri: http://localhost:9090/security/authorize
-      scope: oauth2.read oauth2.write
     resource:
       userInfoUri: http://localhost:9090/security/user
 

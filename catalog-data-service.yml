@@ -1,3 +1,9 @@
 server:
   servlet:
     context-path: /catalog
+
+
+security:
+  oauth2:
+    resource:
+      id: service

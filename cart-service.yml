@@ -2,3 +2,8 @@ server:
   servlet:
     context-path: /cart
 
+security:
+  oauth2:
+    resource:
+      id: service
+

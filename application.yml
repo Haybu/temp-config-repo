@@ -59,11 +59,17 @@ spring:
       use_sql_comments: false
       format_sql: false
 
+logging:
+  level:
+    org.springframework.security: DEBUG
+
 security:
   oauth2:
     client:
       client-id: clientid
       client-secret: clientsecret
+    resource:
+      userInfoUri=http://localhost:9090/user
 
 
 ###

@@ -62,6 +62,7 @@ spring:
 logging:
   level:
     org.springframework.security: DEBUG
+    io.agilehandy.cart.clients.CatalogClient: DEBUG
 
 security:
   oauth2:

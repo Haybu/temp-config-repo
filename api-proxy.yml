@@ -1,0 +1,8 @@
+server:
+  port: 8088
+
+zuul:
+  ignoredServices: '*'
+  routes:
+    catalog-data-service: /catalog/**
+    cart-service: /cart/**

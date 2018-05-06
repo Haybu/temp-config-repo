@@ -65,12 +65,14 @@ logging:
     io.agilehandy.cart.clients.CatalogClient: DEBUG
 
 security:
+  user:
+    password: secret
   oauth2:
     client:
       client-id: clientid
       client-secret: clientsecret
-      access-token-uri: http://localhost:9090/security/token
-      user-authorization-uri: http://localhost:9090/security/authorize
+      access-token-uri: http://localhost:9090/security/oauth/token
+      user-authorization-uri: http://localhost:9090/security/oauth/authorize
     resource:
       userInfoUri: http://localhost:9090/security/user
 

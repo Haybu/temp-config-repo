@@ -65,8 +65,6 @@ logging:
     io.agilehandy.cart.clients.CatalogClient: DEBUG
 
 security:
-  user:
-    password: secret
   oauth2:
     client:
       client-id: clientid
